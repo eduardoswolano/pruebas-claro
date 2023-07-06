@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claro sports</title>
+    <link rel="stylesheet" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/style.css"></noscript>
+    <link as="style" rel="stylesheet preload preconnect" href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap" type="text/css" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__column">
+                <img class="img" src="./assets/img/logo-sochi.png" alt="Logo sochi" title="Logo sochi" />
+            </div>
+            <div class="header__column">
+                <img class="img" src="./assets/img/logo-claro-sports.png" alt="Logo claro sports" title="Logo claro sports" />
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="section__top">
+            <div class="main-container__background"></div>
+            <div class="main-container">
+                <h2 class="headline headline--h2">Faltan</h2>
+                <div class="contador">
+                    <div class="contador__item">
+                        <span class="contador__number" id="dias">00</span>
+                        <span class="contador__tag">Días</span>
+                    </div>
+                    <div class="contador__item">
+                        <span class="contador__number" id="horas">00</span>
+                        <span class="contador__tag">Hrs</span>
+                    </div>
+                    <div class="contador__item">
+                        <span class="contador__number" id="minutos">00</span>
+                        <span class="contador__tag">Min</span>
+                    </div>
+                    <div class="contador__item">
+                        <span class="contador__number" id="segundos">00</span>
+                        <span class="contador__tag">Seg</span>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="video_container">
+                        <iframe id="videoFrame" class="video__frame" width="560" height="315" src="https://www.youtube.com/embed/mAinJyxqrBY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container section__bottom">
+            <h1 class="headline headline--h1">Claro Sport en Sochi 2014</h1>
+            <div class="list-videos">
+                <div class="list-videos__item">
+                    <div class="videos-click list-videos__wrapper" data-video="https://www.youtube.com/embed/mAinJyxqrBY">
+                        <img class="list-videos__img" src="./assets/img/team-latam.png" alt="Equipo LATAM" title="Equipo LATAM">
+                        <div class="list-videos__ornament"></div>
+                        <p class="list-videos__text">Los depostistas latinoamericanos que participaron en sochi 2014</p>
+
+                    </div>
+                    <h3 class="headline list-videos__headline">Team LATAM</h3>
+                </div>
+                <div class="list-videos__item">
+                    <div class="videos-click list-videos__wrapper" data-video="https://www.youtube.com/embed/gVUs4oFKJmY">
+                        <img class="list-videos__img" src="./assets/img/travel-meets-fashion.png" alt="Travel meets fashion" title="Travel meets fashion">
+                        <div class="list-videos__ornament"></div>
+                        <p class="list-videos__text">Los depostistas latinoamericanos que participaron en sochi 2014</p>
+
+                    </div>
+                    <h3 class="headline list-videos__headline">Travel meets fashion</h3>
+                </div>
+                <div class="list-videos__item">
+                    <div class="videos-click list-videos__wrapper" data-video="https://www.youtube.com/embed/aQLDxUY_wjs">
+                        <img class="list-videos__img" src="./assets/img/velocidad-riesgo.png" alt="Velocidad y riesgo" title="Velocidad y riesgo">
+                        <div class="list-videos__ornament"></div>
+                        <p class="list-videos__text">Los depostistas latinoamericanos que participaron en sochi 2014</p>
+
+                    </div>
+                    <h3 class="headline list-videos__headline">Velocidad y riesgo</h3>
+                </div>
+                <div class="list-videos__item">
+                    <div class="videos-click list-videos__wrapper" data-video="https://www.youtube.com/embed/qBe17SnzI2s">
+                        <img class="list-videos__img" src="./assets/img/experiencia.png" alt="Experiencia multimedia" title="Experiencia multimedia">
+                        <div class="list-videos__ornament"></div>
+                        <p class="list-videos__text">Los depostistas latinoamericanos que participaron en sochi 2014</p>
+
+                    </div>
+                    <h3 class="headline list-videos__headline">Experiencia multimedia</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__column">
+                <p class="footer__link">
+                    <a href="#">Aviso de privacidad</a>/<a href="#">Contacto</a>
+                </p>
+            </div>
+            <div class="footer__column">
+                <img class="img footer__img" src="./assets/img/logo-sochi-color.png" alt="Logo claro sports" title="Logo claro sports" />
+            </div>
+            <div class="footer__column">
+                <ul class="social">
+                    <li class="social__item mobli">
+                        <a href="#">
+                            <img class="social__img" src="./assets/img/mobli-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item tw">
+                        <a href="#" class="social__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="32" height="32" viewBox="0 0 32 32"><path d="M28.711 9.482c.02.284.02.569.02.853 0 8.67-6.599 18.66-18.66 18.66A18.53 18.53 0 0 1 0 26.051c.528.061 1.036.081 1.584.081 3.066 0 5.888-1.036 8.142-2.802a6.57 6.57 0 0 1-6.132-4.548c.406.061.812.102 1.239.102.589 0 1.178-.081 1.726-.223A6.56 6.56 0 0 1 1.3 12.225v-.081a6.6 6.6 0 0 0 2.964.832A6.556 6.556 0 0 1 1.34 7.514c0-1.218.325-2.335.893-3.31a18.639 18.639 0 0 0 13.523 6.863 7.437 7.437 0 0 1-.162-1.502 6.555 6.555 0 0 1 6.558-6.558c1.888 0 3.594.792 4.792 2.071a12.89 12.89 0 0 0 4.162-1.584 6.539 6.539 0 0 1-2.883 3.614A13.168 13.168 0 0 0 32 6.093a14.103 14.103 0 0 1-3.289 3.391z"/></svg>
+                        </a>
+                    </li>
+                    <li class="social__item fb">
+                        <a href="#" class="social__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="20" height="32" viewBox="0 0 20 32"><path d="M17.446 18h-4.668v14H6.517V18H1.43v-5.791h5.087V7.795C6.517 2.774 9.508 0 14.084 0c2.192 0 4.484.391 4.484.391v4.931h-2.526c-2.489 0-3.265 1.544-3.265 3.129v3.758h5.557z"/></svg>
+                        </a>
+                    </li>
+                    <li class="social__item yt">
+                        <a href="#" class="social__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" xml:space="preserve" width="32" height="32" viewBox="0 0 56.693 56.693"><path d="M43.911 28.21H12.782c-4.948 0-8.959 4.015-8.959 8.962v7.201c0 4.947 4.011 8.961 8.959 8.961h31.129c4.947 0 8.959-4.014 8.959-8.961v-7.201c0-4.947-4.012-8.962-8.959-8.962zm-24.589 5.606h-2.894v14.38h-2.796v-14.38H10.74V31.37h8.582v2.446zm8.175 14.38h-2.48v-1.36c-.461.503-.936.887-1.432 1.146-.496.27-.975.396-1.441.396-.576 0-1.004-.183-1.297-.555-.288-.371-.435-.921-.435-1.664V35.782h2.48v9.523c0 .294.055.505.154.636.107.135.277.197.51.197.18 0 .412-.086.691-.26a3.35 3.35 0 0 0 .77-.668v-9.429h2.48v12.415zm9.004-2.563c0 .877-.195 1.551-.584 2.021-.387.47-.953.701-1.686.701-.488 0-.922-.088-1.299-.27a3.189 3.189 0 0 1-1.061-.841v.951h-2.51V31.37h2.51v5.419c.336-.375.691-.666 1.062-.861.379-.199.76-.295 1.146-.295.785 0 1.383.262 1.797.791.416.529.623 1.304.623 2.32v6.889zm8.603-3.345h-4.746v2.339c0 .652.08 1.106.242 1.359.166.254.445.378.842.378.412 0 .697-.107.863-.321.16-.216.246-.686.246-1.416v-.565h2.553v.637c0 1.272-.309 2.231-.936 2.878-.617.641-1.547.959-2.783.959-1.113 0-1.99-.339-2.627-1.021-.635-.678-.959-1.619-.959-2.815v-5.576c0-1.073.354-1.956 1.057-2.633.701-.677 1.604-1.015 2.715-1.015 1.137 0 2.01.313 2.619.941.609.629.914 1.529.914 2.706v3.165z"/><path d="M41.466 37.646c-.396 0-.678.111-.85.343-.176.218-.258.591-.258 1.112v1.255h2.193v-1.255c0-.521-.088-.895-.262-1.112-.167-.231-.446-.343-.823-.343zM32.909 37.604c-.176 0-.354.039-.525.12-.174.079-.344.21-.512.38v7.733c.199.2.396.354.588.442.191.085.389.133.6.133.305 0 .527-.088.67-.266.141-.176.213-.457.213-.854v-6.411c0-.422-.084-.738-.26-.955-.182-.214-.44-.322-.774-.322zM16.858 23.898h3.144v-7.69L23.663 5.36h-3.196l-1.946 7.41h-.198L16.28 5.36h-3.167l3.745 11.194zM27.923 24.243c1.27 0 2.266-.333 2.992-.999.721-.669 1.082-1.582 1.082-2.752v-7.064c0-1.041-.369-1.898-1.104-2.559-.74-.659-1.688-.991-2.844-.991-1.27 0-2.281.314-3.033.941-.75.627-1.127 1.468-1.127 2.531v7.088c0 1.163.367 2.083 1.1 2.773.733.687 1.713 1.032 2.934 1.032zm-1.158-10.997a.93.93 0 0 1 .316-.725c.217-.184.492-.273.834-.273.369 0 .668.089.896.273.227.188.34.428.34.725v7.451c0 .365-.111.655-.336.864-.223.21-.523.313-.9.313-.369 0-.654-.1-.854-.31-.197-.205-.297-.493-.297-.868v-7.45zM36.214 24.098c.525 0 1.064-.15 1.619-.438.561-.292 1.098-.719 1.609-1.276v1.515h2.793V10.224h-2.793v10.38c-.26.297-.549.541-.859.735-.316.192-.576.288-.781.288-.262 0-.455-.072-.568-.221-.115-.143-.18-.377-.18-.698V10.224h-2.789v11.429c0 .815.164 1.424.488 1.828.33.41.812.617 1.461.617z"/></svg>                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        /*==Script para el contador==*/
+        var seg = 1000,
+                min = seg * 60,
+                hrs = min * 60,
+                day = hrs * 24;
+
+        var countDown = new Date('Aug 30, 2023 00:00:00').getTime(),
+            x = setInterval(function() {
+
+            var now = new Date().getTime(),
+                distance = countDown - now;
+
+            document.getElementById('dias').innerText = Math.floor(distance / (day)),
+                document.getElementById('horas').innerText = Math.floor((distance % (day)) / (hrs)),
+                document.getElementById('minutos').innerText = Math.floor((distance % (hrs)) / (min)),
+                document.getElementById('segundos').innerText = Math.floor((distance % (min)) / seg);
+
+            }, seg);
+
+             /*==Script para asignar el video segun el círculo clickeado==*/
+            document.querySelectorAll(".videos-click").forEach(function(videos) {
+                videos.addEventListener("click",function(){
+                    document.querySelector("#videoFrame").src=this.dataset.video;
+                });                
+            });
+    </script>
+</body>
+</html>
